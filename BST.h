@@ -2,24 +2,6 @@
 #define BST_H
 #include <iostream>
 
-/**
-* @class BST
-* @brief BST template class with the required functionality to make a functional binary search tree
-*
-* @author Achraf Ben EL Haj
-* @version 01
-* @date lab9 Submission date
-*
-* @author Achraf Ben El Haj
-* @version 02
-* @date 11/25/2022
-*
-* @author Achraf Ben El Haj
-* @version 03
-* @data 12/1/2022
-*
-* @bug 1 bug: Search can alter data cant make value parameter a const. Had a problem with it breaking the entirity my program and I am low on time for debugging.
-*/
 
 template<class B>
 struct Node
